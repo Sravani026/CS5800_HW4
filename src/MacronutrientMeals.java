@@ -101,12 +101,12 @@ public class MacronutrientMeals {
         MealFactory factory = RandomMealFactory.getInstance();
 
         List<Customer> customers = new ArrayList<>();
-        customers.add(new Customer("John", "No Restriction"));
-        customers.add(new Customer("Alice", "Paleo"));
-        customers.add(new Customer("Bob", "Vegan"));
-        customers.add(new Customer("Emily", "Nut Allergy"));
-        customers.add(new Customer("David", "No Restriction"));
-        customers.add(new Customer("Sophia", "Vegan"));
+        customers.add(new Customer("1A", "No Restriction"));
+        customers.add(new Customer("2B", "Paleo"));
+        customers.add(new Customer("3C", "Vegan"));
+        customers.add(new Customer("4D", "Nut Allergy"));
+        customers.add(new Customer("5E", "No Restriction"));
+        customers.add(new Customer("6F", "Vegan"));
 
         for (Customer customer : customers) {
             Meal meal = new Meal(factory, customer.getDietPlan());
